@@ -7,6 +7,7 @@ export interface SortablejsOptions {
   };
   sort?: boolean;
   delay?: number;
+  delayOnTouchOnly?: boolean; // only delay if user is using touch
   touchStartThreshold?: number;
   disabled?: boolean;
   store?: {
